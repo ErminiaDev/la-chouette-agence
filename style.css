@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -688,6 +688,11 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+
+.h1-emphasis {
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .cta-hero {
@@ -709,8 +714,18 @@ h2 {
     line-height: 1.4em;
 }
 
+#bloc-2-services h2 {
+    width: 600px;
+    margin: 30px auto;
+}
+
+#bloc-4-portfolio h2 {
+    width: 450px;
+    margin: 30px auto;
+}
+
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
