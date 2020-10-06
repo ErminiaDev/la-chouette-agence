@@ -721,9 +721,10 @@ h2 {
 }
 
 #bloc-2-services blockquote {
-    font-size: 18.5px;
+    font-size: 22px;
 }
 #bloc-2-services figcaption {
+    font-size: 16px;
     color: #555555;
 }
 
