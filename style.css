@@ -863,6 +863,18 @@ h4 {
     background-image: url("img/image-de-presentation.jpeg");
 }
 
+#bloc-3-what-i-do a {
+    font-size: 25px;
+}
+
+#bloc-6 p {
+    font-size: 18px;
+}
+
+#bloc-7 label {
+    font-size: 18px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1067,6 +1079,10 @@ button:focus,
 a:focus,
 input:focus {
 border: 3px solid red;
+}
+
+.form-control {
+    border: 1px solid #7D7D7D;
 }
 
 @media (max-width: 400px) {
