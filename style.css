@@ -773,8 +773,12 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
+/* .portfolio-thumb {
     margin-bottom: 24px;
+} */
+
+#bloc-4-portfolio h3 {
+    margin-top: 24px;
 }
 
 .portfolio-row {
@@ -1058,6 +1062,13 @@ h4 {
     }
 }
 
+/* focus states for accessibility */
+button:focus, 
+a:focus,
+input:focus {
+border: 3px solid red;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1068,5 +1079,15 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    #bloc-2-services h2,
+    #bloc-4-portfolio h2  {
+        width: inherit;
+    }
+    #bloc-4-portfolio img {
+        margin: 0 auto;
+    }
+    .portfolio-row .col-sm-6:nth-child(1) {
+        margin-bottom: 50px;
     }
 }
