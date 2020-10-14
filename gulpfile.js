@@ -61,3 +61,7 @@ gulp.task('default', ['clean'], function () {
     'pages'
   );
 });
+
+// Gulp watch
+gulp.watch('src/js/*.js', ['clean', 'default']);
+gulp.watch('src/css/*.css', ['clean', 'default']);
