@@ -863,6 +863,14 @@ h4 {
     background-image: url("../../img/image-de-presentation.jpeg");
 }
 
+#bloc-0 .active {
+ border-bottom: 2px solid black;
+ padding-bottom: 2px;
+ padding-right: 0;
+ padding-left:0;
+ margin: auto 0;
+}
+
 #bloc-3-what-i-do a {
     font-size: 25px;
 }
