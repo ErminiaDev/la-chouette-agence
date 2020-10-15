@@ -22,7 +22,7 @@ const AUTOPREFIXER_BROWSERS = [
 
 // Gulp task to minify CSS files
 gulp.task('styles', function () {
-  return gulp.src('./src/css/styles.css')
+  return gulp.src('./src/css/**/*.css')
     // Auto-prefix css styles for cross browser compatibility
     .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
     // Minify the file
