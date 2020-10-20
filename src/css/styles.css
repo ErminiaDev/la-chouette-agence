@@ -674,6 +674,16 @@ h1 {
  margin: auto 0;
 }
 
+#bloc-0 img {
+    width: 322px;
+    height: 60px;
+}
+
+#bloc-1 img {
+    width: 100px;
+    height: 100px;
+}
+
 #bloc-3-what-i-do a {
     font-size: 25px;
 }
