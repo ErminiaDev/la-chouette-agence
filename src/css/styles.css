@@ -452,6 +452,16 @@ a[data-lightbox]:hover img {
     color: #FFF;
 }
 
+.visually-hidden {
+   clip-path: inset(100%);
+   clip: rect(1px, 1px, 1px, 1px);
+   height: 1px;
+   overflow: hidden;
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+}
+
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
@@ -679,7 +689,7 @@ h1 {
     height: 60px;
 }
 
-#bloc-1 img {
+#bloc-1-hero img {
     width: 100px;
     height: 100px;
 }
